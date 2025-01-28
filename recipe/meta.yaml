@@ -6,25 +6,27 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 0a10e940451e92c7a9e7eae7dc8d28d1b54f9a2e9c753eb6a055b2b6106049b1
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
 
 test:
   requires:
     - openjdk >=11
     - r5py >=0.1.0
+    - python {{ python_min }}
   imports:
     - r5py
 
