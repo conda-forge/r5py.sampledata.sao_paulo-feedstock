@@ -26,16 +26,16 @@ requirements:
 test:
   requires:
     - openjdk >=21
-    - r5py >=0.1.0
     - python {{ python_min }}
     - pytest
+    - r5py
   imports:
     - r5py
   source_files:
     - tests
   commands:
     - pip check
-    - python -m pytest
+    - {{ PYTHON }} -m pytest
 
 about:
   home: https://github.com/r5py/r5py.sampledata.sao_paulo
