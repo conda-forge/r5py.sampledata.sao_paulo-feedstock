@@ -1,5 +1,5 @@
 {% set name = "r5py.sampledata.sao_paulo" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace(".", "_") }}-{{ version }}.tar.gz
-  sha256: 389e4659885611bc5563c48dc1c22b9da995cc38a255ee1bed6919c8aec68797
+  sha256: d802d307de1c46f409ff664cd562aac69d09c131a9b666cd883ed460dcca5431
 
 build:
   noarch: python
@@ -27,8 +27,13 @@ test:
   requires:
     - python {{ python_min }}
     - pip
+    - pytest
+    - r5py
+  source_files:
+    - tests
   commands:
     - pip check
+    - python -m pytest
 
 about:
   home: https://github.com/r5py/r5py.sampledata.sao_paulo
