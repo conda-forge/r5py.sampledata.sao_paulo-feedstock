@@ -1,5 +1,5 @@
 {% set name = "r5py.sampledata.sao_paulo" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.3.post2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace(".", "_") }}-{{ version }}.tar.gz
-  sha256: d4f051e65137af20849edaaa0ca0410bf8ce88603193ea966615378a951a6046
+  sha256: 8aac6fd6fee4d94cb7102604e225f778230ecd1c09acfcb49802de446414b24e
 
 build:
   noarch: python

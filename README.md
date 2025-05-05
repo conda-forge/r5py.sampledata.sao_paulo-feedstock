@@ -41,7 +41,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-r5py.sampledata.sao_paulo-green.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r5py.sampledata.sao_paulo.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r5py.sampledata.sao_paulo.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r5py.sampledata.sao_paulo.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r5py.sampledata.sao__paulo-green.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r5py.sampledata.sao_paulo.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r5py.sampledata.sao_paulo.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r5py.sampledata.sao_paulo.svg)](https://anaconda.org/conda-forge/r5py.sampledata.sao_paulo) |
 
 Installing r5py.sampledata.sao_paulo
 ====================================
